@@ -161,15 +161,29 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'Mid-year field notes and candid photography capturing the everyday pulse of life — streets, faces, and fleeting moments suspended in time.',
       images: Array.from({length: 24}, (_, i) => `July 2025/${i + 1}.png`)
     },
-    kodungallur: {
-      title: 'Kodungallur',
+    kodungallurBharani: {
+      title: 'Kodungallur Bharani',
       desc: 'An immersive document of the Kodungallur Bharani — the sacred sickles, chanting devotees, and the electrifying intensity of an ancient ritual.',
       images: [
-        'Kodungallur-20260418T161011Z-3-001/Kodungallur/1_20260418_175911_0000.png',
-        'Kodungallur-20260418T161011Z-3-001/Kodungallur/20_20260418_175912_0019.png',
-        'Kodungallur-20260418T161011Z-3-001/Kodungallur/DSC01146.png',
-        'Kodungallur-20260418T161011Z-3-001/Kodungallur/DSC01154.png',
-        'Kodungallur-20260418T161011Z-3-001/Kodungallur/DSC01197.png'
+        'Kodungallur Bharani/1_20260419_174759_0000.png',
+        'Kodungallur Bharani/2_20260419_174800_0001.png',
+        'Kodungallur Bharani/3_20260419_174800_0002.png',
+        'Kodungallur Bharani/4_20260419_174800_0003.png',
+        'Kodungallur Bharani/5_20260419_174800_0004.png',
+        'Kodungallur Bharani/6_20260419_174800_0005.png',
+        'Kodungallur Bharani/7_20260419_174800_0006.png',
+        'Kodungallur Bharani/8_20260419_174800_0007.png',
+        'Kodungallur Bharani/9_20260419_174800_0008.png',
+        'Kodungallur Bharani/10_20260419_174800_0009.png',
+        'Kodungallur Bharani/11_20260419_174800_0010.png',
+        'Kodungallur Bharani/12_20260419_174800_0011.png',
+        'Kodungallur Bharani/13_20260419_174800_0012.png',
+        'Kodungallur Bharani/14_20260419_174800_0013.png',
+        'Kodungallur Bharani/15_20260419_174800_0014.png',
+        'Kodungallur Bharani/16_20260419_174800_0015.png',
+        'Kodungallur Bharani/17_20260419_174800_0016.png',
+        'Kodungallur Bharani/18_20260419_174800_0017.png',
+        'Kodungallur Bharani/19_20260419_174800_0018.png'
       ]
     },
     thankyou: {
@@ -177,49 +191,34 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'A vivid look into the heart of Nelpettai — capturing the raw warmth, resilience, and the spark of traditional ironwork.',
       images: Array.from({length: 17}, (_, i) => `THank you/${i + 1}.png`)
     },
-    theyyam: {
-      title: 'Theyyam',
-      desc: 'High-resolution documentation of the Theyyam ritual — the painted faces, blazing torches, and transcendent energy of Kerala\'s living deity worship.',
-      images: [
-        'Theyyam-20260418T161013Z-3-001/Theyyam/DSC01146.png',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/DSC01154.png',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/Hand holds.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/IMG_3523.png',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/Low exposure .jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/White and black.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3418.png',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3497.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3525.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3527 (2).jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3605.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3705.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3707.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3726 (1).jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3798.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3853.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_3991.png',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_4004.png',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_4134 (1).jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_4186.jpg',
-        'Theyyam-20260418T161013Z-3-001/Theyyam/_MG_4522.jpg'
-      ]
+    angarikalin: {
+      title: 'Angarikalin Kadhai',
+      desc: 'The story of embers — a documentary in heat, light, and devotion, capturing the ancient fire rituals that burn across South India.',
+      images: Array.from({length: 10}, (_, i) => `Angarikalin kadhai/${i + 1}_20260419_133145_000${i}.png`)
     },
-    untitled: {
-      title: 'Sacred Offerings',
-      desc: 'Raw, unfiltered frames of ancient sacrifice rituals and village deity worship — documenting moments of intense devotion.',
+    theyyam1: {
+      title: 'Theyyam',
+      desc: 'The painted faces, blazing torches, and transcendent energy of Kerala\'s living deity worship — Theyyam dissolves the line between man and god.',
       images: [
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/1000255950.jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/1000264662.jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/20240718225226_IMG_6054.JPG',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/20251114_225952.jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_0960.JPG',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_20251215_090329_944.jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_4235(1).jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_4237(1).jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_4281(1).jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_6891.jpg',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_6899.JPG',
-        'Untitled folder-20260418T161018Z-3-001/Untitled folder/IMG_9236.jpg'
+        'Theyyam 1/1_20260419_005909_0000.png',
+        'Theyyam 1/2_20260419_005909_0001.png',
+        'Theyyam 1/3_20260419_005910_0002.png',
+        'Theyyam 1/4_20260419_005910_0003.png',
+        'Theyyam 1/5_20260419_005910_0004.png',
+        'Theyyam 1/6_20260419_005910_0005.png',
+        'Theyyam 1/7_20260419_005910_0006.png',
+        'Theyyam 1/8_20260419_005910_0007.png',
+        'Theyyam 1/9_20260419_005910_0008.png',
+        'Theyyam 1/10_20260419_005910_0009.png',
+        'Theyyam 1/11_20260419_005910_0010.png',
+        'Theyyam 1/12_20260419_005910_0011.png',
+        'Theyyam 1/13_20260419_005910_0012.png',
+        'Theyyam 1/14_20260419_005910_0013.png',
+        'Theyyam 1/15_20260419_005910_0014.png',
+        'Theyyam 1/16_20260419_005910_0015.png',
+        'Theyyam 1/17_20260419_005910_0016.png',
+        'Theyyam 1/18_20260419_005910_0017.png',
+        'Theyyam 1/19_20260419_005911_0018.png'
       ]
     },
     azhagar: {

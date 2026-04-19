@@ -24,8 +24,9 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: var(--font-sans);
-  line-height: 1.6;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  line-height: 1.8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -77,6 +78,18 @@ h1, h2, h3, .logo, .section-number {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   z-index: 101;
+}
+
+.nav-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.nav-logo:hover {
+  opacity: 0.8;
 }
 
 .nav-links {
@@ -214,6 +227,30 @@ h1, h2, h3, .logo, .section-number {
 /* Hero text inside overlay */
 .hero-content {
   text-align: center;
+}
+
+/* Centered logo on hero */
+.hc-logo-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+  animation: heroLogoFade 1.8s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes heroLogoFade {
+  from { opacity: 0; transform: translate(-50%, -48%); }
+  to   { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.hc-logo-img {
+  height: clamp(180px, 22vw, 300px);
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1) drop-shadow(0 6px 30px rgba(0,0,0,0.8));
 }
 
 .hero-subtitle {
@@ -807,12 +844,12 @@ h1, h2, h3, .logo, .section-number {
   display: flex;
   align-items: center;
   gap: 6rem;
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 .about-logo-wrap {
-  flex: 0 0 260px;
+  flex: 0 0 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -820,18 +857,19 @@ h1, h2, h3, .logo, .section-number {
 
 .about-logo {
   width: 100%;
-  max-width: 260px;
+  max-width: 400px;
   height: auto;
   object-fit: contain;
+  border-radius: 4px;
 }
 
 .about-text { flex: 1; }
 
 .about-para {
-  font-size: 1.05rem;
-  line-height: 1.9;
+  font-size: 1.25rem;
+  line-height: 2;
   color: var(--text-secondary);
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.8rem;
 }
 
 .about-para strong {
@@ -841,10 +879,10 @@ h1, h2, h3, .logo, .section-number {
 
 .about-tagline {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-style: italic;
   color: var(--text-color);
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 /* ===== Blog Section ===== */
